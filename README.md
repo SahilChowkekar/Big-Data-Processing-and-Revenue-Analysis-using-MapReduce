@@ -80,7 +80,7 @@ hadoop fs -put '/home/hduser_/DBMSPROJECT/customer-reservations.csv'  /preproces
 
 Verify the Files
 ```bash
-hadoop fs -ls preprocessing/Input
+hadoop fs -ls /preprocessing/Input
 ```
 Not on Hadoop Cluster Only in Hadoop local\
 \
