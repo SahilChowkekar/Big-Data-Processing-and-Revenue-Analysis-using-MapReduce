@@ -43,7 +43,7 @@ Inside Hadoop/sbin
 ```bash
 ./start-dfs.sh
 ./start-yarn.sh
-Jps
+jps
 
 ```
 Access Hadoop UI from Browser
