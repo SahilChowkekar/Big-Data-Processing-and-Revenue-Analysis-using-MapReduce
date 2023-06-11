@@ -102,7 +102,7 @@ In Hadoop Cluster \
 \
 Verify the output file for preprocessing
 ```bash
-hadoop fs -ls /preprocessing /Output
+hadoop fs -ls /preprocessing/Output
 ```
 This command Hadoop is used to display the contents of a file stored in HDFS
 ```bash
@@ -139,7 +139,7 @@ In Hadoop Cluster\
 Verify the output file 
 
 ```bash
-hadoop fs -ls /max /Output
+hadoop fs -ls /max/Output
 ```
 This command Hadoop is used to display the contents of a file stored in HDFS
 ```bash
@@ -152,7 +152,7 @@ hadoop fs -cp /max/Output/part-r-00000 /sorting/Input
 ```
 Verify the file
 ```bash
-hadoop fs -ls /sorting /Input
+hadoop fs -ls /sorting/Input
 
 ```
 ## 4.	Sorting Part
@@ -178,7 +178,7 @@ Verify the output
 
 
 ```bash
-hadoop fs -ls /sorting /Output
+hadoop fs -ls /sorting/Output
 ```
 This command Hadoop is used to display the contents of a file stored in HDFS
 ```bash
