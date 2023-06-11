@@ -114,7 +114,7 @@ hadoop fs -cp /preprocessing/Output/part-r-00000 /max/Input
 ```
 Verify the file
 ```bash
-hadoop fs -ls /max /Input
+hadoop fs -ls /max/Input
 ```
 ## 3.	Max Part
 Not on Hadoop Cluster Only in Hadoop local\
