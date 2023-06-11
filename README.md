@@ -102,7 +102,7 @@ In Hadoop Cluster \
 \
 Verify the output file for preprocessing
 ```bash
-hadoop fs -ls / preprocessing /Output
+hadoop fs -ls /preprocessing /Output
 ```
 This command Hadoop is used to display the contents of a file stored in HDFS
 ```bash
